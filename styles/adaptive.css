@@ -1,0 +1,187 @@
+@media screen and (max-width: 1400px) {
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .services .services-items-wrapper .services-item .services-img img,
+    .services .services-items-wrapper .services-item .services-about {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    header {
+        padding-top: 200px;
+    }
+    header h1 {
+        font-size: 8em;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .header-top {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .header-top .logo {
+        margin: 20px 0;
+    }
+    .header-top nav ul li {
+        margin-right: 30px;
+    }
+    .our-masters h3 {
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .gallery .gallery-wrapper {
+        width: 90%;
+    }
+    .gallery .gallery-wrapper .gallery-box a img {
+        min-width: 100px;
+        min-height: 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .services h2 {
+        font-size: 1.8em;
+    }
+    .services .services-items-wrapper .services-item .services-img img,
+    .services .services-items-wrapper .services-item .services-about {
+        height: 200px;
+    }
+    .services .services-items-wrapper .services-item .services-about span {
+        margin-bottom: 20px;
+    }
+    .our-masters {
+        padding-top: 50px;
+    }
+    .our-masters h3 {
+        font-size: 1.8em;
+    }
+
+}
+@media screen and (max-width: 780px) {
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    .our-masters .masters-box-wrapper .master-box .name {
+        font-size: 1.5em;
+    }
+    .our-masters .masters-box-wrapper .master-box .position {
+        letter-spacing: normal;
+    }
+    .our-masters .masters-box-wrapper .master-box ul li a i {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 680px) {
+    .our-masters .masters-box-wrapper {
+        flex-wrap: wrap;
+    }
+    .our-masters .masters-box-wrapper .master-box {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .burger-wrapper .burger { 
+        display: block;
+    }
+    .header-top .logo a span{
+        font-size: 4em;
+    }
+    .header-top .logo a p {
+        font-size: 1.5em;
+    }
+    .header-top nav {
+        display: block;
+    }
+    .header-top nav ul {
+        background-color: rgba(0,0,0,.5);
+        padding: 40px 100px;
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+    .header-top nav ul li {
+        font-size: 1.3em;
+        margin: 10px 0;
+    }
+    .header-top nav ul li:nth-child(1n) {
+        margin-right: 0;
+    }
+    header h1 {
+        display: none;
+    }
+    header .button-for-order {
+        margin-top: 100px;;
+    }
+
+    .services .services-items-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .services .services-items-wrapper .services-item {
+        width: 100%;
+        display: flex;
+    }
+    .services .services-items-wrapper .services-img img,
+    .services .services-items-wrapper .services-about {
+        height: 300px;
+    }
+    .services .services-items-wrapper .services-about {
+        flex: 1;
+    }
+    .services .services-items-wrapper .services-img {
+        flex: 1;
+    }
+    .our-masters {
+        padding-top: 0px;
+    }
+    .our-masters h3 {
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .header-top .logo a span{
+        font-size: 2em;
+    }
+    .our-masters {
+        height: auto;
+    }
+    .our-masters .masters-box-wrapper {
+        
+    }
+    .our-masters .masters-box-wrapper .master-box {
+        width: 100%;
+    }
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 300px;
+    }
+    .gallery .gallery-wrapper .gallery-box {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header .button-for-order {
+        margin-top: 100px;
+        width: 200px;
+    }
+    .services h2 {
+        font-size: 1.5em;
+    }
+    .services .services-items-wrapper .services-item .services-about span {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+    .services .services-items-wrapper .services-item .services-about p {
+        font-size: 1em;
+    }
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 200px;
+    }
+    .gallery .gallery-wrapper .gallery-box {
+        width: 30%;
+    }
+}
