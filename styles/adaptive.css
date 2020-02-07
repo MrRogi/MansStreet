@@ -184,4 +184,7 @@
     .gallery .gallery-wrapper .gallery-box {
         width: 30%;
     }
+    .gallery h4 {
+        font-size: 3em;
+    }
 }
