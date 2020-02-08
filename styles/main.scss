@@ -379,7 +379,6 @@ header {
 
 //PRICES
 .prices {
-    
     .prices-wrapper {
         display: flex;
         .prices-img {
@@ -396,10 +395,8 @@ header {
             height: 100vh;
             h5 {
                 font-size: 5em;
-                text-align: center;
                 font-weight: bold;
-                text-align-last: left;
-                
+                text-align: left;
             }
             span {
                 display: block;
@@ -409,17 +406,17 @@ header {
                 margin: 30px 0px 30px 5px;
             }
             p {
-                text-align-last: left;
+                text-align: left;
                 font-size: 1.3em;
             }
         }
         .prices-text-wrapper {
-            margin-top: 50px;
             display: flex;
             justify-content: space-between;
+            padding-top: 50px;
             .prices-name ul li,
             .prices-price ul li{
-                margin: 40px 0;
+                margin: 50px 0;
                 font-weight: bold;
                 font-size: 1.8em;
                 letter-spacing: 1px;
@@ -428,6 +425,7 @@ header {
                 ul {
                     li {
                         color: $yellow;
+                        text-shadow: 1px 1px black;
                     }
                 }
             }

@@ -481,9 +481,8 @@ header .button-for-order:hover::after {
 
 .prices .prices-wrapper .prices-text h5 {
   font-size: 5em;
-  text-align: center;
   font-weight: bold;
-  text-align-last: left;
+  text-align: left;
 }
 
 .prices .prices-wrapper .prices-text span {
@@ -495,23 +494,23 @@ header .button-for-order:hover::after {
 }
 
 .prices .prices-wrapper .prices-text p {
-  text-align-last: left;
+  text-align: left;
   font-size: 1.3em;
 }
 
 .prices .prices-wrapper .prices-text-wrapper {
-  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 50px;
 }
 
 .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
 .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
-  margin: 40px 0;
+  margin: 50px 0;
   font-weight: bold;
   font-size: 1.8em;
   letter-spacing: 1px;
@@ -519,5 +518,6 @@ header .button-for-order:hover::after {
 
 .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
   color: #f1c40f;
+  text-shadow: 1px 1px black;
 }
 /*# sourceMappingURL=main.css.map */

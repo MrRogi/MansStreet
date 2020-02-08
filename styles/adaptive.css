@@ -27,13 +27,17 @@
     /*HEADER-TOP*/
     .header-top {
         flex-direction: column;
-        padding: 0 20px;
+        padding: 10px 20px;
+        height: auto;
     }
     .header-top .logo {
         margin: 20px 0;
     }
     .header-top nav ul li {
         margin-right: 30px;
+    }
+    .header-top nav {
+        
     }
     /*//HEADER-TOP*/
 
@@ -42,6 +46,20 @@
         padding-bottom: 100px;
     }
     /*//OUR-MASTERS*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text h5 {
+        font-size: 4em;
+    }
+    .prices .prices-wrapper .prices-text-wrapper {
+        padding-top: 50px;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        margin: 20px 0;
+        font-size: 1.4em;
+    }
+    /*//PRICES*/
 }
 @media screen and (max-width: 950px) {
     /*GALLERY*/
@@ -77,6 +95,13 @@
     }
     /*//OUR-MASTERS*/
 
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        margin: 20px 0;
+        font-size: 1.2em;
+    }
+    /*//PRICES*/
 }
 @media screen and (max-width: 780px) {
     /*OUR-MASTERS*/
@@ -94,6 +119,41 @@
         font-size: 1.5em;
     }
     /*//OUR-MASTERS*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-img {
+        display: none;
+    }
+    .prices .prices-wrapper .prices-text {
+        width: 100%;
+        background: #222 url("/images/prices-img.jpg") no-repeat top/cover fixed;
+    }
+    .prices .prices-wrapper .prices-text span {
+        border-color: white;
+        margin: 30px auto;
+    }
+    .prices .prices-wrapper .prices-text h5 {
+        text-shadow: 3px 3px black;
+        text-align: center;
+    }
+    .prices .prices-wrapper .prices-text p {
+        text-align: center;
+    }
+    .prices .prices-wrapper .prices-text h5,
+    .prices .prices-wrapper .prices-text span,
+    .prices .prices-wrapper .prices-text p,
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li {
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        text-shadow: 1px 1px black;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        font-size: 2em;
+    }
+    /*//PRICES*/
 }
 @media screen and (max-width: 680px) {
     /*OUR-MASTERS*/
@@ -175,7 +235,15 @@
     .our-masters h3 {
         padding-bottom: 50px;
     }
-    /*//OUR-MASTERS*/
+    /*//OUR-MASTERS*/ 
+}
+@media screen and (max-width: 630px) {
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+        font-size: 1.7em;
+    }
+    /*//PRICES*/
 }
 @media screen and (max-width: 510px) {
     /*HEADER-TOP*/
@@ -204,8 +272,25 @@
         width: 25%;
     }
     /*//GALLERY*/
-}
 
+     /*PRICES*/
+     .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+     .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+         font-size: 1.5em;
+     }
+     /*//PRICES*/
+}
+@media screen and (max-width: 460px) {
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text {
+        padding: 10px 20px;
+    }
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+        font-size: 1.3em;
+    }
+    /*//PRICES*/
+}
 @media screen and (max-width: 360px) {
     /*HEADER*/
     header .button-for-order {
@@ -241,4 +326,14 @@
         font-size: 3em;
     }
     /*//GALLERY*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text {
+        padding: 10px 10px;
+    }
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+        font-size: 1.2em;
+    }
+    /*//PRICES*/
 }
