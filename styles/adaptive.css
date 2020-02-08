@@ -1,23 +1,30 @@
 @media screen and (max-width: 1400px) {
+    /*OUR-MASTERS*/
     .our-masters .masters-box-wrapper .master-box img {
         height: 200px;
     }
+     /*//OUR-MASTERS*/
 }
 @media screen and (max-width: 1300px) {
+     /*SERVICES*/
     .services .services-items-wrapper .services-item .services-img img,
     .services .services-items-wrapper .services-item .services-about {
         height: 300px;
     }
+    /*//SERVICES*/
 }
 @media screen and (max-width: 1120px) {
+    /*HEADER*/
     header {
         padding-top: 200px;
     }
     header h1 {
         font-size: 8em;
     }
+    /*//HEADER*/
 }
 @media screen and (max-width: 1080px) {
+    /*HEADER-TOP*/
     .header-top {
         flex-direction: column;
         padding: 0 20px;
@@ -28,11 +35,16 @@
     .header-top nav ul li {
         margin-right: 30px;
     }
+    /*//HEADER-TOP*/
+
+    /*OUR-MASTERS*/
     .our-masters h3 {
         padding-bottom: 100px;
     }
+    /*//OUR-MASTERS*/
 }
 @media screen and (max-width: 950px) {
+    /*GALLERY*/
     .gallery .gallery-wrapper {
         width: 90%;
     }
@@ -40,8 +52,10 @@
         min-width: 100px;
         min-height: 100px;
     }
+    /*//GALLERY*/
 }
 @media screen and (max-width: 900px) {
+    /*SERVICES*/
     .services h2 {
         font-size: 1.8em;
     }
@@ -52,15 +66,20 @@
     .services .services-items-wrapper .services-item .services-about span {
         margin-bottom: 20px;
     }
+    /*//SERVICES*/
+
+    /*OUR-MASTERS*/
     .our-masters {
         padding-top: 50px;
     }
     .our-masters h3 {
         font-size: 1.8em;
     }
+    /*//OUR-MASTERS*/
 
 }
 @media screen and (max-width: 780px) {
+    /*OUR-MASTERS*/
     .our-masters .masters-box-wrapper .master-box img {
         height: 150px;
         margin-bottom: 15px;
@@ -74,16 +93,23 @@
     .our-masters .masters-box-wrapper .master-box ul li a i {
         font-size: 1.5em;
     }
+    /*//OUR-MASTERS*/
 }
 @media screen and (max-width: 680px) {
+    /*OUR-MASTERS*/
     .our-masters .masters-box-wrapper {
         flex-wrap: wrap;
     }
     .our-masters .masters-box-wrapper .master-box {
         width: 40%;
     }
+    /*//OUR-MASTERS*/
 }
 @media screen and (max-width: 630px) {
+    /*HEADER-TOP*/
+    .header-top {
+        background-color: transparent;
+    }
     .burger-wrapper .burger { 
         display: block;
     }
@@ -110,13 +136,18 @@
     .header-top nav ul li:nth-child(1n) {
         margin-right: 0;
     }
+    /*//HEADER-TOP*/
+
+    /*HEADER*/
     header h1 {
         display: none;
     }
     header .button-for-order {
         margin-top: 100px;;
     }
+    /*//HEADER*/
 
+    /*SERVICES*/
     .services .services-items-wrapper {
         display: flex;
         flex-direction: column;
@@ -135,17 +166,25 @@
     .services .services-items-wrapper .services-img {
         flex: 1;
     }
+    /*SERVICES*/
+
+    /*OUR-MASTERS*/
     .our-masters {
         padding-top: 0px;
     }
     .our-masters h3 {
         padding-bottom: 50px;
     }
+    /*//OUR-MASTERS*/
 }
 @media screen and (max-width: 510px) {
+    /*HEADER-TOP*/
     .header-top .logo a span{
         font-size: 2em;
     }
+    /*//HEADER-TOP*/
+
+    /*OUR-MASTERS*/
     .our-masters {
         height: auto;
     }
@@ -158,16 +197,24 @@
     .our-masters .masters-box-wrapper .master-box img {
         height: 300px;
     }
+    /*//OUR-MASTERS*/
+
+    /*GALLERY*/
     .gallery .gallery-wrapper .gallery-box {
         width: 25%;
     }
+    /*//GALLERY*/
 }
 
 @media screen and (max-width: 360px) {
+    /*HEADER*/
     header .button-for-order {
         margin-top: 100px;
         width: 200px;
     }
+    /*//HEADER*/
+
+    /*SERVICES*/
     .services h2 {
         font-size: 1.5em;
     }
@@ -178,13 +225,20 @@
     .services .services-items-wrapper .services-item .services-about p {
         font-size: 1em;
     }
+    /*SERVICES*/
+
+    /*OUR-MASTERS*/
     .our-masters .masters-box-wrapper .master-box img {
         height: 200px;
     }
+    /*//OUR-MASTERS*/
+
+    /*GALLERY*/
     .gallery .gallery-wrapper .gallery-box {
         width: 30%;
     }
     .gallery h4 {
         font-size: 3em;
     }
+    /*//GALLERY*/
 }
