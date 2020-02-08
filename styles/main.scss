@@ -409,11 +409,26 @@ header {
                 text-align: left;
                 font-size: 1.3em;
             }
+
+            button {
+                border: 3px solid black;
+                background-color: transparent;
+                font-weight: bold;
+                padding: 15px 25px;
+                letter-spacing: 1px;
+                text-shadow: 1px 1px transparent;
+            }
+            button:hover {
+                background-color: $yellow;
+                color: white;
+                border-color: $yellow;
+                text-shadow: 1px 1px black;
+            }
         }
         .prices-text-wrapper {
             display: flex;
             justify-content: space-between;
-            padding-top: 50px;
+            //padding-top: 50px;
             .prices-name ul li,
             .prices-price ul li{
                 margin: 50px 0;

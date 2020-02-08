@@ -498,6 +498,22 @@ header .button-for-order:hover::after {
   font-size: 1.3em;
 }
 
+.prices .prices-wrapper .prices-text button {
+  border: 3px solid black;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px transparent;
+}
+
+.prices .prices-wrapper .prices-text button:hover {
+  background-color: #f1c40f;
+  color: white;
+  border-color: #f1c40f;
+  text-shadow: 1px 1px black;
+}
+
 .prices .prices-wrapper .prices-text-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,7 +521,6 @@ header .button-for-order:hover::after {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 50px;
 }
 
 .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
